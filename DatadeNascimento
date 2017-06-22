@@ -1,0 +1,17 @@
+#Faça um algoritmo que leia a data de nascimento(dia, mês e ano), e informe a idade correta
+
+n01=int(input("Em que ano você nasceu?"))
+n02=int(input("Em que mês você nasceu?"))
+n03=int(input("Em que dia você nasceu?"))
+
+n04=2017-n01
+Mes_atual=6
+Dia_atual=21
+
+if n02>Mes_atual:
+    n04=n04-1
+
+if n02==Mes_atual:
+    if n03>Dia_atual:
+        n04=n04-1
+print(n04)
