@@ -1,0 +1,12 @@
+#custo ao consumidor
+
+n01 = float(input("Qual o custo de fábrica do carro? : \n"))
+
+n02 = 28 / 100
+multi1 = n02 * n01
+
+n03 = 45 / 100
+multi2 = n03 * n01
+
+n04=n01+multi1+multi2
+print("O valor do carro é", n04)
