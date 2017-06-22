@@ -1,0 +1,9 @@
+#Número válido
+
+n1=int(input("Digite um numero entre zero e dez: "))
+if n1>10:
+    print("Número inválido")
+if n1<0:
+    print("Número inválido")
+if n1>0 and n1<10:
+    print("Número certo!")
