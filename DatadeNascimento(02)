@@ -1,0 +1,25 @@
+#Faça um algoritmo que leia a data de nascimento de uma pessoa e mostre-a expressa em anos, meses e dias.
+
+n01=int(input("Em que ano você nasceu?"))
+n02=int(input("Em que mês você nasceu?"))
+n03=int(input("Em que dia você nasceu?"))
+n04=2017-n01
+Mes_atual=6
+Dia_atual=21
+
+if n02>Mes_atual:
+    n04=n04-1
+
+if n02==Mes_atual:
+    if n03>Dia_atual:
+        n04=n04-1
+
+n05=12-n02
+n06=n05+6
+
+n07=30-n03
+n08=n07+21
+
+
+
+print("Você tem",n04,"anos, ",n06,"meses, e",n08,"dias")
