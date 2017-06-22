@@ -1,0 +1,9 @@
+#1)Faça um algoritmo para converter valores de celsius para fahrenheit
+
+n1=int(input("Quantos graus está fazendo? "))
+n2=int(input("Deseja transformar a temperatura em Fahrenheit? \n Sim [1] \n Não [2] \n Resp:   "))
+n3=1.8*n1+32
+if n2==1:
+    print("A temperatura em Fahrenheit, é:" ,n3)
+if n2==2:
+    print("Obrigado!")
