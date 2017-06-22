@@ -1,0 +1,9 @@
+#IMC
+
+n01 = float(input("Qual a sua altura : \n"))
+n02 = int(input("Qual o seu peso? \n"))
+
+n03 = n01 * n01
+n04 = n02/n03
+
+print(n04)
