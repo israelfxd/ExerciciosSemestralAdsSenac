@@ -1,0 +1,7 @@
+#4) - Faça um programa para uma loja de tintas
+
+n01=float(input("Qual o tamanho em metros quadrados da área a ser pintada? \n"))
+n02=int(n01/54)
+n03=n02*18
+
+print("Você deverá comprar",n02,"latas de tinta, e custará ao todo",n03,"reais")
