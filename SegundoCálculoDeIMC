@@ -1,0 +1,36 @@
+#IMC (2)
+
+op=int(input("Você é homem [1] ou mulher? [2]:"))
+
+n01 = float(input("Qual a sua altura : \n"))
+n02 = int(input("Qual o seu peso? \n"))
+
+n03 = n01 * n01
+n04 = n02/n03
+
+
+if op==1:
+  if n04<=20.7:
+  print("abaixo do peso")
+
+  if n04>=20.8 and n04<=26.4:
+  print("Peso normal")
+
+  if n04>26.4 and n04<=27.8:
+  print("marginalmente acima do peso")
+
+  if n04>27.8:
+  print("acima do peso ideal")
+
+if op==2:
+  if n04<=19.1:
+  print("abaixo do peso")
+
+  if n04>19.1 and n04<=25.8:
+  print("Peso normal")
+
+  if n04>25.8 and n04<=27.3:
+  print("Marginalmente acima do peso")
+
+  if n04>27.3:
+  print("Acima do peso ideal")
