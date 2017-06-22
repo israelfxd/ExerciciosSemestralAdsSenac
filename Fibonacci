@@ -1,0 +1,11 @@
+#(2)Faça um algoritmo que leia um número inteiro calcule o seu número
+de Fibonacci. F1 = 1, F2 = 1, F3 = 2, etc.
+
+n01=int(input("Digite um número inteiro: \n"))
+n03=n01+n01
+n04=n03+n01
+n05=n04+n03
+n06=n05+n04
+n07=n06+n05
+
+print("A sua sequencia Fibonacci é:",n01,n01,n03,n04,n05,n06,n07)
