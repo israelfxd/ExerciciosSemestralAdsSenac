@@ -1,0 +1,11 @@
+#FAÇA UM PROGRAMA QUE O USUÁRIO INFORME QUANTOS DIAS DE VIDA ELE TEM e o sistema mostre-a expressa em anos, meses e dias de vida
+
+n01=int(input("Quantos dias de vida você tem? \n"))
+n02=int(n01/365)
+n03=n01%365
+n04=int(n03/30)
+n05=n03%30
+
+
+
+print("Você tem",n02,"anos,",n04,"meses, e",n05,"dias de vida")
