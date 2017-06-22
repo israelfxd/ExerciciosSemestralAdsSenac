@@ -1,0 +1,14 @@
+#5) o sistema deve perguntar a medida dos 3 lados de um triangulo, o sistema deve informar o tipo de triangulo: equilatero, isosceles ou escaleno.'
+
+n01=int(input("Quaal a medida do primeiro lado do triângulo?: \n"))
+n02=int(input("Quaal a medida do segundo lado do triângulo?: \n"))
+n03=int(input("Quaal a medida do terceiro lado do triângulo?: \n"))
+
+if n01==n02 and n02==n03:
+    print("triângulo equilátero")
+
+if n01==n02 or n02 == n03 or n01 == n03:
+    print("Triângulo Isósceles")
+
+if n01!=n02 and n02!=n03 and n01!=n03:
+    print("Triângulo escaleno")
