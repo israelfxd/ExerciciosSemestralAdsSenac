@@ -1,0 +1,176 @@
+#(1) - Indique como um troco deve ser dado utilizando-se um número mínimo de notas. Seu
+algoritmo deve ler o valor da conta
+,a ser paga e o valor do pagamento efetuado desprezando
+os centavos. Suponha que as notas para troco sejam as de 50, 20, 10, 5, 2 e 1 reais, e que
+nenhuma delas esteja em falta no caixa
+
+print('Produtos em promoção, SÓ HOJE!!!!!!')
+print('Produto 1 Carro')
+print('produto 2 Casa')
+print('produto 3 árvore')
+print('produto 4 escola')
+op=int(input("Qual Produto o Sr(a) quer? =  [1] - [2] - [3] - [4]:"))
+
+A1=(200)
+A2=(500)
+A3=(1000)
+A4=(700)
+
+
+
+if op==1:
+    print("\nO valor do carro é: 200 reias ",)
+    K01=int(input("O senhor deseja levar este produto?  Sim [1] Não [2]:"))
+    if K01==1:
+        K02=int(input("\nValor a ser pago:"))
+        ttt=(K02-A2)
+        Y01=int(ttt/50)
+        Y02=(ttt%50)
+        print("\n Seu troco é\n",Y01,"notas de 50 reais")
+
+        Z01=int(Y02/20)
+        Z02=Y02%20
+
+        print(Z01, "notas de 20")
+
+        V01=int(Z02/10)
+        V02=(Z02%10)
+
+        print(V01, "notas de 10")
+
+        P01=int(V02/5)
+        P02=V02%5
+
+        print(P01, "notas de 5")
+
+        Q01=int(P02/2)
+        Q02=P02%2
+
+        print(Q01, "notas de 2")
+
+        T01=int(Q02/1)
+        T02=(Q02%1)
+
+        print(T01, "notas de 1")
+        if K01==2:
+            print("\nObrigado por não comprar NADA!")
+
+
+
+if op==2:
+    print("\nO valor da casa é 500 reais ")
+    C01=int(input("O senhor deseja levar este produto?  Sim [1] Não [2]:"))
+    if C01==1:
+
+        K02=int(input("\nValor a ser pago:"))
+        ttt=(K02-A2)
+        Y01=int(ttt/50)
+        Y02=(ttt%50)
+        print("\n Seu troco é\n",Y01,"notas de 50 reais")
+        Z01=int(Y02/20)
+        Z02=Y02%20
+
+        print(Z01, "notas de 20")
+
+        V01=int(Z02/10)
+        V02=(Z02%10)
+
+        print(V01, "notas de 10")
+
+        P01=int(V02/5)
+        P02=V02%5
+
+        print(P01, "notas de 5")
+
+        Q01=int(P02/2)
+        Q02=P02%2
+
+        print(Q01, "notas de 2")
+
+        T01=int(Q02/1)
+        T02=(Q02%1)
+
+        print(T01, "notas de 1")
+        if C01==2:
+            print("\nObrigado por não comprar NADA!")
+
+
+
+if op==3:
+    print("\nO valor da árvore é: 1000 reais ",)
+    D01=int(input("O senhor deseja levar este produto?  Sim [1] Não [2]:"))
+    if D01==1:
+
+        K02=int(input("\nValor a ser pago:"))
+        ttt=(K02-A2)
+        Y01=int(ttt/50)
+        Y02=(ttt%50)
+        print("\n Seu troco é\n",Y01,"notas de 50 reais")
+
+        Z01=int(Y02/20)
+        Z02=Y02%20
+
+        print(Z01, "notas de 20")
+
+        V01=int(Z02/10)
+        V02=(Z02%10)
+
+        print(V01, "notas de 10")
+
+        P01=int(V02/5)
+        P02=V02%5
+
+        print(P01, "notas de 5")
+
+        Q01=int(P02/2)
+        Q02=P02%2
+
+        print(Q01, "notas de 2")
+
+        T01=int(Q02/1)
+        T02=(Q02%1)
+
+        print(T01, "notas de 1")
+        if D01==2:
+            print("\nObrigado por não comprar NADA!")
+
+
+
+if op==4:
+    print("O valor da escola é 700 reais",)
+    E01=int(input("O senhor deseja levar este produto?  Sim [1] Não [2]:"))
+    if E01==1:
+
+        K02=int(input("\nValor a ser pago:"))
+        ttt=(K02-A2)
+        Y01=int(ttt/50)
+        Y02=(ttt%50)
+        print("\n Seu troco é\n",Y01,"notas de 50 reais")
+
+        Z01=int(Y02/20)
+        Z02=Y02%20
+
+        print(Z01, "notas de 20")
+
+        V01=int(Z02/10)
+        V02=(Z02%10)
+
+        print(V01, "notas de 10")
+
+        P01=int(V02/5)
+        P02=V02%5
+
+        print(P01, "notas de 5")
+
+        Q01=int(P02/2)
+        Q02=P02%2
+
+        print(Q01, "notas de 2")
+
+        T01=int(Q02/1)
+        T02=(Q02%1)
+
+        print(T01, "notas de 1")
+
+        if E01==2:
+            print("\nObrigado por não comprar NADA!")
