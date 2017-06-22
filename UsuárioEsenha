@@ -1,0 +1,14 @@
+##2) Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário,
+#mostrando uma mensagem de erro e voltando a pedir as informações.
+
+n01=(input("Digite um nome de usuário: \n"))
+n02=(input("Digite uma senha: \n"))
+
+
+while n01==n02:
+    print(" \n Você digitou a senha igual ao seu login, por favor, tente novamente \n")
+    n01=(input("Digite um nome de usuário: \n"))
+    n02=(input("Digite uma senha: \n"))
+
+    if n01!=n02:
+        print("Acesso liberado")
