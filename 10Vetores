@@ -1,0 +1,20 @@
+#7)Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
+
+i=0
+o=3
+vet=[]
+while i<10:
+    vet.append(float(input("Digite o primeiro número \n ")))
+    i=i+1
+
+print(vet[9])
+print(vet[8])
+print(vet[7])
+print(vet[6])
+print(vet[5])
+print(vet[4])
+print(vet[3])
+print(vet[2])
+print(vet[1])
+print(vet[0])
+
