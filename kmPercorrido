@@ -1,0 +1,15 @@
+#Exercício 3: Faça um programa onde o usuário informe a km no momento que o tanque é cheio,
+# no próximo abastecimento o usuário deve informar os km percorridos e a quantidade de combustível
+# necessária para completar o tanque (l). O sistema deve informar a o consumo médio (km/l)
+
+
+a01=int(input("Informe a quantidade de km: "))
+
+a02=int(input("Informe a quantidade de km percorrido: "))
+
+a03=int(input("Informe a quantidade de combustível necessária para completar o tanque: "))
+
+n01=a02-a01
+n02=n01/a03
+
+print("A consumo médio é:" , n02)
