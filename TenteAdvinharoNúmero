@@ -1,0 +1,12 @@
+#Tente advinhar o número
+
+n1=int(input("Digite um numero entre zero e dez: "))
+n2=int(input("tente adivinhar o numero: "))
+i=0
+while n1!=n2:
+  i= i + 1
+  if n1 < n2:
+  print ("o numero da tentativa é menor")
+  elif n1 > n2:
+  print ("o numero da tentativa é maior")
+print ("acertou")
