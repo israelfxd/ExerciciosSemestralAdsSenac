@@ -1,0 +1,10 @@
+#dimensões de um retângulo
+
+n01=int(input("Qual é o cumprimento do retângulo? \n "))
+n02=int(input("Qual a largura do retângulo? \n "))
+n03=n01*n02
+
+print("A sua área é:",n03)
+
+if n01==n02:
+  print("Área de um quadrado")
