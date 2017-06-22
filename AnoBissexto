@@ -1,0 +1,12 @@
+#3) - Determine se um ano é bissexto:
+
+A1=int(input("Digite um ano aleatório: "))
+B2=(A1 % 4)
+B3=(A1 % 100)
+B4=(A1 % 400)
+
+if B2==0 and B3!=0:
+    print("O ano é bissexto")
+
+else:
+    print("O ano não é bissexto")
