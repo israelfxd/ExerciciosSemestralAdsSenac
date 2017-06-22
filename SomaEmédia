@@ -1,0 +1,11 @@
+#soma e a média dos números
+
+num01=int(input("Digite número 1: "))
+num02=int(input("Digite número 2: "))
+num03=int(input("Digite número 3: "))
+num04=int(input("Digite número 4: "))
+num05=int(input("Digite número 5; "))
+n1=(num01+num02+num03+num04+num05)
+print(n1)
+n2=n1/5
+print(n2)
