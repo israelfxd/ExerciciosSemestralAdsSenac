@@ -1,0 +1,19 @@
+#nadador
+
+
+n01 = int(input("Qual a sua idade? : \n"))
+
+if n01>4 and n01<8:
+  print("infantil A")
+
+if n01>7 and n01<11:
+  print("infantil B")
+
+if n01>10 and n01<14:
+  print("juvenil A")
+
+if n01>13 and n01<18:
+  print("juvenil B")
+
+if n01>18:
+  print("adulto")
