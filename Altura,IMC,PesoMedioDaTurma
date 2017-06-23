@@ -21,7 +21,7 @@ while x<n01:
 n06=n04/n01
 n07=n05/n01
 F01=n07*n07
-F02=n07/n06
+F02=n06/F01
 
 print("A média das alturas é: ",n07)
 print("A média dos pesos é: ",n06)
