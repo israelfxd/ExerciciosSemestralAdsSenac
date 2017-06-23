@@ -1,0 +1,44 @@
+n01=int(input("Quantos alunos tem na turma? \n"))
+
+n04=0
+n05=0
+MaiorIMC=0
+MenorIMC=10000000
+
+x=0
+
+while x<n01:
+    print("Este é o aluno \n",x+1)
+    n02=float(input("Qual a sua altura? "))
+    n03=int(input("Qual o seu peso? "))
+    n04=(n03+n04)
+    n05=(n02+n05)
+    D1=n02*n02
+    IMC=n03/D1
+
+    x=x+1
+
+
+
+n06=n04/n01
+n07=n05/n01
+
+F01=n07*n07
+F02=n06/F01
+
+
+
+if IMC>MaiorIMC:
+    MaiorIMC=x
+
+if IMC<MenorIMC:
+    MenorIMC=x
+
+
+
+
+print("O aluno com maior IMC, é o aluno de número: ",MaiorIMC)
+print("O aluno com menor IMC, é o aluno de número: ",MenorIMC)
+print("A média das alturas é: ",n07)
+print("A média dos pesos é: ",n06)
+print("O IMC da turma é: ",F02)
