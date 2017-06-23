@@ -1,0 +1,13 @@
+#3)Um programa que o usuário informe a Km percorrida e a quantidade de 
+#litros abastecidas, o sistema informe o consumo do veículo.
+
+
+a01=int(input("Informe a quantidade de km percorrido: "))
+a02=int(input("Informe a quantidade de litros abastecidos: "))
+a03=int(a01/a02)
+
+
+if a01<a02:
+    print("Você deve andar mais com seu veículo,a kilometragem está muito baixa")
+else:
+    print("O consumo do seu veículo é \n",a03,"km/l")
