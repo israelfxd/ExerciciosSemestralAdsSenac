@@ -1,0 +1,10 @@
+#Torre de Hanoi
+
+
+print("Leve o disco menor da primeira torre para a terceira torre")
+print("Leve o disco regular da primeira torre para a torre do meio")
+print("Leve o disco menor da terceira torre para a torre do meio")
+print("Leve o disco maior da primeira torre para a terceira torre")
+print("Leve o disco menor da torre do meio para a primeira torre")
+print("Leve o disco regular da torre do meio para a terceira torre")
+print("Leve o disco menor da primeira torre para a primeira torre")
